@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Geography-Scale Visibility",
+  "slug": "ctgov-geography-scale-visibility",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-geography-scale-visibility",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across site-footprint buckets among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on how site and country footprint map onto older-study visibility and phase-specific reporting gaps.",
+  "body": "How much more visible are larger multi-site and multinational trials on ClinicalTrials.gov than single-site studies once older closed interventional records are isolated? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by site and country footprint. The project compares two-year no-results rates, ghost-protocol rates, full visibility, and phase-specific contrasts across location and country buckets. Single-site studies showed a 79.5 percent no-results rate, whereas studies with 20 or more sites fell to 31.7 percent. Among phase III trials, single-site studies reached 76.3 percent no results while 20-plus-site trials fell to 25.7 percent on the same metric. Geography footprint therefore behaves like a strong visibility gradient rather than a decorative field count inside the registry. The gap survives even within late-phase trials that should be easiest to see. Site and country counts come from sponsor-entered location metadata and may not capture every participating site or all multinational operational detail.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much more visible are larger multi-site and multinational trials on ClinicalTrials.gov than single-site studies once older closed interventional records are isolated?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by site and country footprint."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, full visibility, and phase-specific contrasts across location and country buckets."
+    },
+    {
+      "role": "Primary result",
+      "text": "Single-site studies showed a 79.5 percent no-results rate, whereas studies with 20 or more sites fell to 31.7 percent."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Among phase III trials, single-site studies reached 76.3 percent no results while 20-plus-site trials fell to 25.7 percent on the same metric."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Geography footprint therefore behaves like a strong visibility gradient rather than a decorative field count inside the registry. The gap survives even within late-phase trials that should be easiest to see."
+    },
+    {
+      "role": "Boundary",
+      "text": "Site and country counts come from sponsor-entered location metadata and may not capture every participating site or all multinational operational detail."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Geography-Scale Visibility dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped by site and country footprint",
+    "code": "https://github.com/mahmood726-cyber/ctgov-geography-scale-visibility",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369."
+  ]
+}
